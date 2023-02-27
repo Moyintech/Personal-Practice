@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "SimpleInterest",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Simple.sol": "Test"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Simple.sol": {
+			"keccak256": "0x2d6d03aa8e5659aee90cf5ee452d9627aad043d0adaa1e9b0c84b804c05c0e75",
+			"urls": [
+				"bzz-raw://e89805b6c2f1c95f3359be7a882e45bdf57079a73d766d2a0ac511f87a71616f",
+				"dweb:/ipfs/QmS56kN4dhDTnS3ZPmuohog3K2c4nQa6W61dxn9twph87i"
+			]
+		}
+	},
+	"version": 1
+}

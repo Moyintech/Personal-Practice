@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "fruit",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "maritalstatus",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "HIVstatus",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_maritalstatus",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_HIVstatus",
+						"type": "string"
+					}
+				],
+				"name": "getResult",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/struct.sol": "arraystructexp"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/struct.sol": {
+			"keccak256": "0xb362d2fdd52bfb6ddce27ae2ee1d3296ac39f3831f11501bdee6a47c9dcf0674",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://59f479e562e3645c429a3195bac1f1c4e40caed8868c8de9007ff93bfcc78ab4",
+				"dweb:/ipfs/QmPx93ZfoFEUAFyhrYjKf8JXF9cYJTXcXbiCZtmrbyjZpj"
+			]
+		}
+	},
+	"version": 1
+}
